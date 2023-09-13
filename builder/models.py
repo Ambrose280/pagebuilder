@@ -2,7 +2,7 @@ from django.db import models
 from django_grapesjs.models import GrapesJsHtmlField
 from django.template.loader import render_to_string
 
-class ExampleModel(models.Model):
+class BuildHTML(models.Model):
     html = GrapesJsHtmlField()
 
 
